@@ -1,5 +1,9 @@
 ## print something
 ###
 ```
-<script/src=//Ǌ.₨></script>
+int main() {
+printf("This is RobinTrigon");
+return 0;
+}
+// result:- This is RobinTrigon
 ```
