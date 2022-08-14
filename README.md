@@ -100,7 +100,6 @@ return 0;
 ### signed Integer data 
 ```
 #include <stdio.h>
-
 int main() {
 // Short -> %d , %hi
 short int pk = 45; 
@@ -129,7 +128,6 @@ return 0;
 ### unsigned Integer data 
 ```
 #include <stdio.h>
-
 int main() {
 //unsinged means all positive data
 
@@ -161,7 +159,6 @@ return 0;
 #include <stdio.h>
 
 int main() {
-
 // float -> %f
 float fd = 489.123F;
 printf(" I'm float %f\n",fd);
