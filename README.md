@@ -1,7 +1,6 @@
 ### print something
 ```
 #include <stdio.h>
-
 int main() {
 printf("This is RobinTrigon");
 return 0;
@@ -123,9 +122,15 @@ printf("decimal of %o is %d\n",oc, oc);// convert octal to decimal
 int hx = 0xfff;// need to use 0x at 1st.
 printf("I'm hex %x\n",hx);
 printf(" decimal of %x is %d\n",hx, hx);// convert hex to decimal
+return 0;
+}
+// result:- lets run...
+```
+### unsigned Integer data 
+```
+#include <stdio.h>
 
-// unsigned Integer data 
-printf("-----------unsigned Integer data------------\n");
+int main() {
 //unsinged means all positive data
 
 //unsigned short -> %hu
@@ -147,7 +152,6 @@ printf(" I'm Unsigned long long %llu\n",ull);
 // if we stored negative number into unsinged
 unsigned short negative = -2;
 printf(" I'm Unsigned negative %hu\n",negative); // it give us a unexpected result coz , binary of -2 is 1111111111111110 and decimal of this binary value is 65534. so we can see '65534' as a result.
-
 return 0;
 }
 // result:- lets run...
