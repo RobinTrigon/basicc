@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdbool.h>
+
 //print something
 //   \n for create a new line.
 int main() {
@@ -133,8 +135,72 @@ printf(" I'm double float %lf\n",df);
 long double lf = 133333337.33; 
 printf(" I'm long double float %Lf\n",lf);// you can use %.2Lf for print 133333337.33
 
-return 0;
+// character data //
+printf("-----------character data------------\n");
+// char -> %c
+char cha = 'A';
+printf("I'm a character -%c\n",cha);
+//it actually work by decimal value .for example:
+
+char chad = 65;
+printf("I'm a character -%c\n",chad); // it will print 'I'm a character A '
+// more:
+char chadd = 'A';
+printf("I'm a character -%d\n",chadd); // it will print 'I'm a character 65 '
+// more:
+char chaddd = 'A' + 2;
+printf("My Decimal value is -> %d and character value is -> %c\n",chaddd,chaddd);
+
+// String data
+printf("-----------String data------------\n");
+
+// string -> %s
+char string[80] = "Hey I'm RobinTrigon. I'm a Gammer | Pentaster | Writer | Student | Hacker";
+printf("%s\n",string);
+
+// Boolean data 
+printf("-----------Boolean data------------\n");
+
+short is_logged_in = 1;
+// we just use a simple condition. in machine language 1 mean true and 0 mean false
+if (is_logged_in){
+printf("User logged in. \n");
+}else{
+printf("User logged out.\n");
+}
+short iis_logged_in = 0;
+if (iis_logged_in){
+printf("User logged in. \n");
+}else{
+printf("User logged out.\n");
+}
+// another rule . we need to incude a libriry "#include <stdbool.h>"
+bool admin_logged_in = true;
+if (admin_logged_in){
+printf("admin logged in. \n");
+}else{
+printf("admin logged out.\n");
+}
+bool addmin_logged_in = false;
+if (addmin_logged_in){
+printf("admin logged in. \n");
+}else{
+printf("admin logged out.\n");
 }
 
+//Type conversion
+printf("-----------Type conversion------------\n");
+
+// 1.implecid conversion 2.explecid conversion
+//implecid conversion
+char imp = 'R';
+printf("[+] character,decimal,hex value of 'R' -> %c  %d  %x\n", imp, imp ,imp);
+//explecid conversion
+char exp = 'R'; 
+printf("[+] explecid conversion is -> %d\n",(int)exp);//we want to convert 'R' from char to int.
+
+
+return 0;
+}
 
 
