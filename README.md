@@ -175,3 +175,94 @@ return 0;
 }
 // result:- lets run...
 ```
+### character data
+```
+#include <stdio.h>
+int main() {
+// character data 
+// char -> %c
+char cha = 'A';
+printf("I'm a character -%c\n",cha);
+//it actually work by decimal value .for example:
+
+char chad = 65;
+printf("I'm a character -%c\n",chad); // it will print 'I'm a character A '
+// more:
+char chadd = 'A';
+printf("I'm a character -%d\n",chadd); // it will print 'I'm a character 65 '
+// more:
+char chaddd = 'A' + 2;
+printf("My Decimal value is -> %d and character value is -> %c\n",chaddd,chaddd);
+
+return 0;
+}
+// result:- please run. -_-
+```
+
+### String data
+```
+#include <stdio.h>
+int main() {
+// string -> %s
+char string[80] = "Hey I'm RobinTrigon. I'm a Gammer | Pentaster | Writer | Student | Hacker";
+printf("%s\n",string);
+return 0;
+}
+// result:- Hey I'm RobinTrigon. I'm a Gammer | Pentaster | Writer | Student | Hacker
+```
+
+### Boolean data 
+```
+#include <stdio.h>
+#include <stdbool.h>
+int main() {
+
+short is_logged_in = 1;
+// we just use a simple condition. in machine language 1 mean true and 0 mean false
+if (is_logged_in){
+printf("User logged in. \n");
+}else{
+printf("User logged out.\n");
+}
+short iis_logged_in = 0;
+if (iis_logged_in){
+printf("User logged in. \n");
+}else{
+printf("User logged out.\n");
+}
+// another rule . we need to incude a libriry "#include <stdbool.h>"
+bool admin_logged_in = true;
+if (admin_logged_in){
+printf("admin logged in. \n");
+}else{
+printf("admin logged out.\n");
+}
+bool addmin_logged_in = false;
+if (addmin_logged_in){
+printf("admin logged in. \n");
+}else{
+printf("admin logged out.\n");
+}
+return 0;
+}
+// result:- This is RobinTrigon
+```
+### Type conversion
+```
+#include <stdio.h>
+int main() {
+
+// 1.implicit conversion 2.explicit conversion
+//implicit conversion
+char imp = 'R';
+printf("[+] character,decimal,hex value of 'R' -> %c  %d  %x\n", imp, imp ,imp);
+//explicit conversion
+char exp = 'R'; 
+printf("[+] explicit conversion is -> %d\n",(int)exp);//we want to convert 'R' from char to int.
+return 0;
+}
+// result:- [+] character,decimal,hex value of 'R' -> R  82  52
+// result:- [+] explicit conversion is -> 82
+
+
+```
