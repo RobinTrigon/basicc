@@ -287,6 +287,8 @@ return 0;
 
 ### Arithmetic Oparator
 ```
+#include <stdio.h>
+int main() {
 // Arithmetic Oparator( + - * / )
 int ao1 = 30;
 int ao2 = 5;
@@ -294,4 +296,6 @@ printf("Addition: %d\n", ao1 + ao2);
 printf("Subtraction: %d\n", ao1 - ao2); 
 printf("Multiplication: %d\n", ao1 * ao2); 
 printf("Division: %d\n", ao1 / ao2); 
+return 0;
+}
 ```
