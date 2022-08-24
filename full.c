@@ -199,6 +199,22 @@ printf("[+] character,decimal,hex value of 'R' -> %c  %d  %x\n", imp, imp ,imp);
 char exp = 'R'; 
 printf("[+] explecid conversion is -> %d\n",(int)exp);//we want to convert 'R' from char to int.
 
+//Oparator
+printf("----------- Oparator ------------\n");
+
+printf("mainly three typs of operator avalable-");
+printf(" 1.Unary (a++)  2.Binary(a+b)  3.Ternary");
+printf("Binary Oparator- 1.Arithmetic 2.Relational 3.Logical 4.Assignment 5.Bitwise                                                                                ");
+// Arithmetic Oparator( + - * / )
+printf("-----------Arithmetic Oparator ------------\n");
+
+int ao1 = 30;
+int ao2 = 5;
+printf("Addition: %d\n", ao1 + ao2); 
+printf("Subtraction: %d\n", ao1 - ao2); 
+printf("Multiplication: %d\n", ao1 * ao2); 
+printf("Division: %d\n", ao1 / ao2); 
+
 
 return 0;
 }
