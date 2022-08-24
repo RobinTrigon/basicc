@@ -266,3 +266,32 @@ return 0;
 
 
 ```
+
+### Oparator
+```
+[+] Mainly three typs of operator avalable-
+
+1.Unary (a++)  
+2.Binary(a+b)  
+3.Ternar
+
+[*] Binary Oparator-
+
+1.Arithmetic 
+2.Relational 
+3.Logical 
+4.Assignment 
+5.Bitwise                                                                               
+
+```
+
+### Arithmetic Oparator
+```
+// Arithmetic Oparator( + - * / )
+int ao1 = 30;
+int ao2 = 5;
+printf("Addition: %d\n", ao1 + ao2); 
+printf("Subtraction: %d\n", ao1 - ao2); 
+printf("Multiplication: %d\n", ao1 * ao2); 
+printf("Division: %d\n", ao1 / ao2); 
+```
