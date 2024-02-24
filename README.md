@@ -63,6 +63,9 @@ printf("%c\n",ch);
 num = num2;
 printf("%d\n",num); //if we put our float data in integer variable it will remove Decimal value. (50)
     return 0;
+
+//or
+printf(" %d signifies the %s of %f",9,"rise",17.0);
 }
 // result:- 45,50.549999,R,50
 ```
